@@ -66,6 +66,9 @@ public class RedisPool {
         System.out.println("dev 合并代码");
         System.out.println("服务正在运行:"+jedis.ping());
 
+
+        System.out.println("test local");
+
         String key = "test20171111";
 
         if(jedis.get(key) == null){
