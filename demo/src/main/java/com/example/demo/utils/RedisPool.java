@@ -61,6 +61,8 @@ public class RedisPool {
         System.out.println("testdev");
         System.out.println("链接成功");
 
+        System.out.println("test local1115");
+
         System.out.println("dev 合并代码");
         System.out.println("服务正在运行:"+jedis.ping());
 
